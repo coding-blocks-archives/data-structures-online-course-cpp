@@ -1,0 +1,33 @@
+Read N
+i = 1
+
+while i<=N do:
+	//Spaces
+	j = 1
+	while j<=n-i do:
+		print " "
+		j = j + 1
+	endwhile
+
+	//Inc Nos
+	j = 1
+	val = i
+	while j<=i do:
+		print val
+		val  = val + 1
+		j = j + 1
+	endwhile
+
+
+	//Dec Nos
+	j = 1
+	val = 2i - 2
+	while j<= i-1 do:
+		print val
+		val = val - 1
+		j = j + 1
+	endwhile
+
+print '\n'
+i = i + 1
+endwhile

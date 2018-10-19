@@ -1,0 +1,10 @@
+Read N
+sum = 0
+
+while N>0 do:
+	sum = sum + N%10
+	N = N/10
+endwhile
+
+print sum
+exit
